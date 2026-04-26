@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fphases\u002F[phase]","\u002Fversions\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

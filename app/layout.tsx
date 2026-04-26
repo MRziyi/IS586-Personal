@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from '@/components/theme-provider'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
@@ -18,17 +17,17 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Undefined — Usability Makeover: Google Looker Studio',
-    template: '%s | Undefined',
+    default: 'n8n Usability Study — Ziyi Zhang',
+    template: '%s | n8n Usability Study',
   },
   description:
-    'Team Undefined\'s UX consulting project: a usability makeover of Google Looker Studio for Usability Engineering Assignment 3.',
+    'Assignment 4: Analyzing and redesigning the n8n workflow editor and Data Tables feature. Usability Engineering, UIUC.',
 }
 
 export const viewport: Viewport = {
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: '#fafafa' },
-    { media: '(prefers-color-scheme: dark)', color: '#1a1a2e' },
+    { media: '(prefers-color-scheme: dark)', color: '#0f0f17' },
   ],
 }
 
@@ -47,7 +46,6 @@ export default function RootLayout({
             <SiteFooter />
           </div>
         </ThemeProvider>
-        <Analytics />
       </body>
     </html>
   )
