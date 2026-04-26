@@ -6,7 +6,6 @@ import {
   ArrowRight,
   CheckCircle2,
   Circle,
-  Clock,
   ExternalLink,
   Layers,
   Search,
@@ -33,10 +32,10 @@ const phases = [
   {
     id: "4C",
     label: "User Study",
-    status: "upcoming" as const,
-    href: null,
+    status: "done" as const,
+    href: "/4c",
     summary:
-      "Observational study: real users performing data-heavy workflow tasks in n8n. Individual sessions, think-aloud protocol.",
+      "Think-aloud study with 3 participants across 4 tasks. 10 usability problems consolidated, with 10 recommendations across three cost tiers and 5 wireframe sketches.",
   },
   {
     id: "4D",

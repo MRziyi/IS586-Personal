@@ -10,6 +10,7 @@ import { ExternalLink, Menu, X } from "lucide-react";
 const navItems = [
   { label: "Overview", href: "/" },
   { label: "4B — Analysis", href: "/4b" },
+  { label: "4C — User Study", href: "/4c" },
 ];
 
 export function SiteHeader() {
