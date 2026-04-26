@@ -1,0 +1,153 @@
+1:"$Sreact.fragment"
+2:I[89554,["/_next/static/chunks/43a35e2414915175.js","/_next/static/chunks/7397008044ae5cbf.js"],"ThemeProvider"]
+3:I[48303,["/_next/static/chunks/43a35e2414915175.js","/_next/static/chunks/7397008044ae5cbf.js"],"SiteHeader"]
+4:I[45121,["/_next/static/chunks/26ca110782d86623.js","/_next/static/chunks/9d0c3bcbaf9e5716.js"],"default"]
+5:I[60512,["/_next/static/chunks/26ca110782d86623.js","/_next/static/chunks/9d0c3bcbaf9e5716.js"],"default"]
+6:I[70065,["/_next/static/chunks/43a35e2414915175.js","/_next/static/chunks/7397008044ae5cbf.js","/_next/static/chunks/ec3591458e6658ce.js","/_next/static/chunks/d0e3173f1a2d8d32.js"],""]
+f:I[50025,["/_next/static/chunks/26ca110782d86623.js","/_next/static/chunks/9d0c3bcbaf9e5716.js"],"default"]
+:HL["/_next/static/chunks/05ff46f6bd6f1c1b.css","style"]
+:HL["/_next/static/chunks/55e3da4def7e60d4.css","style"]
+:HL["/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"i2X3WNy4umRMjpIPpUSo4","c":["","phases","3b",""],"q":"","i":false,"f":[[["",{"children":["phases",{"children":[["phase","3b","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/05ff46f6bd6f1c1b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/55e3da4def7e60d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/43a35e2414915175.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/7397008044ae5cbf.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_5901b7c6-module__ec5Qua__variable jetbrains_mono_707233f-module__9hS9bG__variable font-sans antialiased","children":[["$","$L2",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"disableTransitionOnChange":true,"children":["$","div",null,{"className":"flex min-h-svh flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t bg-secondary/30","children":["$","div",null,{"className":"mx-auto flex max-w-7xl flex-col gap-6 px-4 py-10 lg:px-6","children":[["$","div",null,{"className":"grid gap-8 sm:grid-cols-2 lg:grid-cols-4","children":[["$","div",null,{"children":[["$","h3",null,{"className":"mb-3 text-sm font-semibold text-foreground","children":"Group 5"}],["$","p",null,{"className":"text-sm leading-relaxed text-muted-foreground","children":["UX consulting team analyzing and redesigning ","Google Looker Studio"," for Usability Engineering, Assignment 3."]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"mb-3 text-sm font-semibold text-foreground","children":"Pages"}],["$","ul",null,{"className":"flex flex-col gap-2 text-sm text-muted-foreground","children":[["$","li",null,{"children":["$","$L6",null,{"href":"/","className":"hover:text-foreground transition-colors","children":"Overview"}]}],["$","li",null,{"children":["$","$L6",null,{"href":"/target-site","className":"hover:text-foreground transition-colors","children":"Target Site"}]}],["$","li",null,{"children":["$","$L6",null,{"href":"/versions","className":"hover:text-foreground transition-colors","children":"Versions"}]}],["$","li",null,{"children":["$","$L6",null,{"href":"/feedback","className":"hover:text-foreground transition-colors","children":"Feedback"}]}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"mb-3 text-sm font-semibold text-foreground","children":"Phases"}],["$","ul",null,{"className":"flex flex-col gap-2 text-sm text-muted-foreground","children":[["$","li",null,{"children":["$","$L6",null,{"href":"/phases/3a","className":"hover:text-foreground transition-colors","children":"3A — Setup"}]}],["$","li",null,{"children":["$","$L6",null,{"href":"/phases/3b","className":"hover:text-foreground transition-colors","children":"3B — User Study"}]}],["$","li",null,{"children":["$","$L6",null,{"href":"/phases/3c","className":"hover:text-foreground transition-colors","children":"3C — Redesigns"}]}],"$L7"]}]]}],"$L8"]}],"$L9"]}]}]]}]}],"$La"]}]}]]}],{"children":["$Lb",{"children":["$Lc",{"children":["$Ld",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Le",false]],"m":"$undefined","G":["$f",[]],"S":true}
+10:I[99956,["/_next/static/chunks/43a35e2414915175.js","/_next/static/chunks/7397008044ae5cbf.js"],"Analytics"]
+12:I[35417,["/_next/static/chunks/26ca110782d86623.js","/_next/static/chunks/9d0c3bcbaf9e5716.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+15:I[35417,["/_next/static/chunks/26ca110782d86623.js","/_next/static/chunks/9d0c3bcbaf9e5716.js"],"ViewportBoundary"]
+17:I[35417,["/_next/static/chunks/26ca110782d86623.js","/_next/static/chunks/9d0c3bcbaf9e5716.js"],"MetadataBoundary"]
+7:["$","li",null,{"children":["$","$L6",null,{"href":"/phases/3f","className":"hover:text-foreground transition-colors","children":"3F — Final"}]}]
+8:["$","div",null,{"children":[["$","h3",null,{"className":"mb-3 text-sm font-semibold text-foreground","children":"Links"}],["$","ul",null,{"className":"flex flex-col gap-2 text-sm text-muted-foreground","children":[["$","li",null,{"children":["$","$L6",null,{"href":"/billing","className":"hover:text-foreground transition-colors","children":"Billing"}]}],["$","li",null,{"children":["$","$L6",null,{"href":"/team","className":"hover:text-foreground transition-colors","children":"Team"}]}],["$","li",null,{"children":["$","$L6",null,{"href":"/resources","className":"hover:text-foreground transition-colors","children":"Resources"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://lookerstudio.google.com/","target":"_blank","rel":"noopener noreferrer","className":"hover:text-foreground transition-colors","children":"Google Looker Studio"}]}]]}]]}]
+9:["$","div",null,{"className":"border-t pt-6 text-center text-xs text-muted-foreground","children":["Team ","Group 5"," · Usability Engineering · Assignment 3"]}]
+a:["$","$L10",null,{}]
+b:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":["$L11",[["$","script","script-0",{"src":"/_next/static/chunks/ec3591458e6658ce.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/d0e3173f1a2d8d32.js","async":true,"nonce":"$undefined"}]],["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]]}]
+e:["$","$1","h",{"children":[null,["$","$L15",null,{"children":"$L16"}],["$","div",null,{"hidden":true,"children":["$","$L17",null,{"children":["$","$13",null,{"name":"Next.Metadata","children":"$L18"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+11:["$","div",null,{"className":"mx-auto max-w-4xl px-4 py-10 lg:px-6","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mb-6 flex items-center gap-1.5 text-sm text-muted-foreground","children":[["$","$L6",null,{"href":"/","className":"flex items-center gap-1 hover:text-foreground transition-colors","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-house size-3.5","aria-hidden":"true","children":[["$","path","5wwlr5",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"}],["$","path","r6nss1",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}],"$undefined"]}],["$","span",null,{"className":"sr-only","children":"Home"}]]}],[["$","span","0",{"className":"flex items-center gap-1.5","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chevron-right size-3","aria-hidden":"true","children":[["$","path","mthhwq",{"d":"m9 18 6-6-6-6"}],"$undefined"]}],["$","$L6",null,{"href":"/phases/3a","className":"hover:text-foreground transition-colors","children":"Phases"}]]}],["$","span","1",{"className":"flex items-center gap-1.5","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chevron-right size-3","aria-hidden":"true","children":[["$","path","mthhwq",{"d":"m9 18 6-6-6-6"}],"$undefined"]}],["$","span",null,{"className":"text-foreground font-medium","children":"3B — User Study"}]]}]]]}],["$","div",null,{"className":"mb-8","children":[["$","div",null,{"className":"mb-3 flex flex-wrap items-center gap-2","children":[["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden [a&]:hover:bg-accent [a&]:hover:text-accent-foreground text-xs font-medium bg-cyan-100 text-cyan-800 border-cyan-200 dark:bg-cyan-900/30 dark:text-cyan-400 dark:border-cyan-800","children":["Phase ","3B"]}],["$","span",null,{"data-slot":"badge","className":"inline-flex items-center justify-center rounded-md border px-2 py-0.5 w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden [a&]:hover:bg-accent [a&]:hover:text-accent-foreground text-xs font-medium bg-emerald-100 text-emerald-800 border-emerald-200 dark:bg-emerald-900/30 dark:text-emerald-400 dark:border-emerald-800","children":"Done"}],["$","span",null,{"className":"text-sm text-muted-foreground","children":"2026-03-08"}]]}],["$","h1",null,{"className":"mb-2 text-3xl font-bold tracking-tight text-foreground","children":"Phase 3B — User Study"}]]}],["$","div",null,{"className":"mb-8 rounded-lg border bg-card p-4","children":[["$","h2",null,{"className":"mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground","children":"Artifacts & Links"}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","a","Canvas Forum Post",{"href":"https://canvas.illinois.edu/courses/65097/discussion_topics/1040269","target":"_blank","rel":"noopener noreferrer","children":["Canvas Forum Post","$L19"],"data-slot":"button","className":"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5","ref":null}]]}]]}],"$L1a","$L1b","$L1c"]}]
+1d:I[51833,["/_next/static/chunks/43a35e2414915175.js","/_next/static/chunks/7397008044ae5cbf.js","/_next/static/chunks/ec3591458e6658ce.js","/_next/static/chunks/d0e3173f1a2d8d32.js"],"MarkdownRenderer"]
+1f:I[18191,["/_next/static/chunks/43a35e2414915175.js","/_next/static/chunks/7397008044ae5cbf.js","/_next/static/chunks/ec3591458e6658ce.js","/_next/static/chunks/d0e3173f1a2d8d32.js"],"BackToTop"]
+19:["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-external-link size-3","aria-hidden":"true","children":[["$","path","1q9fwt",{"d":"M15 3h6v6"}],["$","path","gplh6r",{"d":"M10 14 21 3"}],["$","path","a6xqqp",{"d":"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"}],"$undefined"]}]
+1e:T1d23,
+## Overview
+
+In Phase 3B, each team member conducted an individual user study observing real users interacting with Google Looker Studio. The goal was to understand what users do, what they want to do, and how the interface helps or hinders them — especially when things go wrong. All findings were posted to the Canvas forum and synthesized here.
+
+## Study Method
+
+Each team member conducted a single-user observational session with think-aloud protocol. The studies were naturalistic where possible, with participants performing realistic report-building workflows. Users were asked to verbalize their reasoning while completing assigned tasks.
+
+## Team Member Studies
+
+### Ke Ding's User Study
+
+**Participant:** User A — Graduate student in Mechanical Engineering with basic experience in Excel/MATLAB visualization but no prior Looker Studio experience.
+
+**Tasks Given:**
+
+1. "Please look at the Ecommerce Metrics section on the dashboard and connect the CSV file I provided to this report and make it the data source for the dashboard."
+2. "Please modify one of the chart types in the dashboard and make it use the data from the uploaded CSV file instead of the original sample dataset."
+
+**Key Findings:**
+
+- **Data source confusion:** User successfully uploaded the CSV file but did not realize the chart was still using the original sample data. They assumed the dashboard automatically switched to the new dataset because it appeared in the Data panel.
+- **Chart type vs. style confusion:** When asked to change the chart type, the user modified the chart style (line to bar) rather than using the collapsed Chart Type option. The option was not immediately visible.
+- **Signup flow issue:** The "Continue" button appeared grayed out on the preferences page, causing confusion about whether selections were required.
+
+**Redesign Speculations:** Add clearer feedback after dataset upload explaining that charts still need to be manually connected. Make the chart type option expanded by default.
+
+---
+
+### Ziyi Zhang's User Study
+
+**Participant:** User B — Graduate student in UIUC iSchool with data visualization experience in R and Python but new to Looker Studio's report-editing conventions.
+
+**Task Given:** "Please use Google Looker Studio to import the file *corgs_per_country_over_time_columns_2020.csv*, create any visualization(s) you think are appropriate, make the visualizations interactive, and organize them into a report that includes annotations and interactive visualizations. Please think aloud during the process."
+
+**Key Findings:**
+
+1. **Report renaming slip:** When clicking the title, the system did not auto-select the full default title, causing new text to be inserted mid-title. User expected behavior similar to Google Docs.
+
+2. **Chart field selection confusion:** The properties panel overloaded a single area with multiple meanings (field identity, type, edit behavior). Different clickable zones performed different actions without clear differentiation.
+
+3. **Sorting discovery failure:** User could not find the sort control independently. They tried right-clicking the chart (no feedback) and clicking various field areas before needing guidance.
+
+4. **Layout constraint confusion:** After switching chart types, axis labels were partially hidden. User could not understand whether the issue came from chart type, canvas size, style settings, or responsive layout behavior.
+
+5. **System freeze:** During exploratory style changes, the system froze completely, requiring session restart.
+
+6. **Text annotation frustration:** In responsive layout, text boxes snapped to unexpected positions. Font size changes caused selection loss and unexpected text replacement. User abandoned responsive mode for freeform.
+
+7. **Precise targeting required:** Even in freeform mode, moving text boxes required targeting the border precisely; clicks often entered text-edit mode instead.
+
+**Relation to Nielsen's Heuristics:**
+
+- *Visibility of system status:* Poor feedback about why labels were cut off
+- *Match between system and real world:* Field controls didn't match office-software expectations
+- *User control and freedom:* Responsive snapping reduced feeling of control
+- *Consistency and standards:* Violated PowerPoint/Google Docs expectations
+- *Error prevention:* Many preventable slips (mid-title insertion, ambiguous click targets)
+- *Recognition rather than recall:* Users had to remember where sorting lived
+
+---
+
+### Miantong Zhang's User Study
+
+**Participant:** User C — Graduate student who frequently uses Google Docs and Excel but has no previous Looker Studio or data visualization platform experience.
+
+**Tasks Given:**
+
+1. Create a simple report
+2. Connect a dataset
+3. Add a chart to the dashboard
+4. Export or share the report
+
+**Key Findings:**
+
+- **Upload button not found:** User expected a clear "Upload File" button when adding data. The data connector system was not intuitive.
+- **CSV connector uncertainty:** User hesitated before selecting the CSV connector, unsure if it was the correct option for uploading a local dataset.
+- **Add Chart hidden:** User initially looked for visualization tools in the dataset panel, not the top toolbar. Took significant time to locate the Add Chart button.
+- **Export was easy:** The File > Download option was clearly visible and straightforward.
+
+**Redesign Speculations:** Add a visible "Upload Dataset" button. Place Add Chart function closer to the dataset panel or make it more prominent.
+
+---
+
+### Mianchen Zhang's User Study
+
+**Participant:** User D — Graduate student from UIUC with moderate programming background (R, Python) and strong database experience (MySQL).
+
+**Task Given:** "Please try to find a template in Google Looker Studio that you think could be used to analyze country-level data."
+
+**Key Findings:**
+
+- **Template Gallery not visible:** User created a blank report first instead of finding templates. The colorful "+ Blank Report" button was more visually prominent than the Template option.
+- **Searched for templates inside editor:** User clicked multiple ellipsis menus trying to find a template option, expecting templates could be inserted like components.
+- **Long template browsing time:** User spent approximately 8 minutes browsing template categories.
+- **Repair icons caused confusion:** After applying a template designed for different data, visualization panels showed repair icons without clear explanation of what was wrong.
+
+**Redesign Speculations:** Make Template Gallery more visible. Display recommended templates when creating a new report. Provide clearer feedback when templates don't match the uploaded dataset structure.
+
+---
+
+## Cross-Study Synthesis
+
+| Problem Area                       | Frequency | Severity |
+| ---------------------------------- | --------- | -------- |
+| Dataset-chart connection unclear   | 2/4 users | High     |
+| Chart type option hidden/collapsed | 2/4 users | Medium   |
+| Add Chart button hard to find      | 2/4 users | Medium   |
+| Template Gallery not visible       | 1/4 users | Low      |
+| Text annotation placement/editing  | 1/4 users | High     |
+| Field controls overloaded          | 1/4 users | High     |
+| System freeze/reliability          | 1/4 users | Critical |
+
+## Next Steps
+
+- Prioritize issues for redesign (Phase 3C)
+- Create initial wireframes addressing top problems
+- Focus on: data source visibility, chart editing clarity, annotation UX1a:["$","$L1d",null,{"content":"$1e"}]
+1b:["$","div",null,{"className":"mt-12 flex items-center justify-between border-t pt-6","children":[["$","$L6",null,{"href":"/phases/3a","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chevron-left size-4","aria-hidden":"true","children":[["$","path","1wnfg3",{"d":"m15 18-6-6 6-6"}],"$undefined"]}],"3A — Setup"],"data-slot":"button","className":"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5","ref":null}],["$","$L6",null,{"href":"/phases/3c","children":["3C — First Redesigns",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-chevron-right size-4","aria-hidden":"true","children":[["$","path","mthhwq",{"d":"m9 18 6-6-6-6"}],"$undefined"]}]],"data-slot":"button","className":"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5","ref":null}]]}]
+1c:["$","$L1f",null,{}]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fafafa"}],["$","meta","3",{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#1a1a2e"}]]
+14:null
+18:[["$","title","0",{"children":"Phase 3B — User Study | Undefined"}],["$","meta","1",{"name":"description","content":"Team Undefined's UX consulting project: a usability makeover of Google Looker Studio for Usability Engineering Assignment 3."}]]

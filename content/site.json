@@ -1,0 +1,19 @@
+{
+  "title": "Group 5: Usability Makeover for Google Looker Studio",
+  "teamName": "Group 5",
+  "members": [
+    { "name": "Ziyi Zhang", "role": "TBD" },
+    { "name": "Mianchen Zhang", "role": "TBD" },
+    { "name": "Miantong Zhang", "role": "TBD" },
+    { "name": "Ke Ding", "role": "TBD" },
+    { "name": "Pratyasha Saha", "role": "TBD" }
+  ],
+  "targetName": "Google Looker Studio",
+  "targetUrl": "https://lookerstudio.google.com/",
+  "repoUrl": "#",
+  "timesheetUrl": "#",
+  "forumThreadUrl": "#",
+  "deploymentUrl": "#",
+  "consultingRate": 100,
+  "currency": "USD"
+}
