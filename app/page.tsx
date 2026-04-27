@@ -12,7 +12,7 @@ import {
   Users,
 } from "lucide-react";
 
-const phases = [
+const phases: { id: string; label: string; status: "done" | "upcoming"; href: string | null; summary: string }[] = [
   {
     id: "4A",
     label: "Application Pick",
@@ -39,11 +39,11 @@ const phases = [
   },
   {
     id: "4D",
-    label: "Redesign",
-    status: "upcoming" as const,
-    href: null,
+    label: "Redesign — First Draft",
+    status: "done" as const,
+    href: "/4d",
     summary:
-      "Iterative prototypes addressing highest-severity findings. Multiple rounds; paper sketches through mid-fi mockups.",
+      "First-draft prototypes addressing 6 highest-severity findings. Baseline screenshots, 6 annotated wireframe redesigns, evolution log, and open questions.",
   },
 ];
 

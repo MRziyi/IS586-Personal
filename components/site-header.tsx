@@ -11,6 +11,7 @@ const navItems = [
   { label: "Overview", href: "/" },
   { label: "4B — Analysis", href: "/4b" },
   { label: "4C — User Study", href: "/4c" },
+  { label: "4D — Redesign", href: "/4d" },
 ];
 
 export function SiteHeader() {

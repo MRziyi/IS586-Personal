@@ -14,6 +14,7 @@ export function SiteFooter() {
           <Link href="/" className="transition-colors hover:text-foreground">Overview</Link>
           <Link href="/4b" className="transition-colors hover:text-foreground">4B — Analysis</Link>
           <Link href="/4c" className="transition-colors hover:text-foreground">4C — User Study</Link>
+          <Link href="/4d" className="transition-colors hover:text-foreground">4D — Redesign</Link>
           <a
             href="https://n8n.io/"
             target="_blank"

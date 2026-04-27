@@ -42,9 +42,9 @@ function SeverityBadge({ level }: { level: number }) {
 /* ── data ── */
 
 const participants = [
-  { id: "P1", background: "Graduate student, Information Science", n8n: "None", automation: "Used Zapier briefly" },
-  { id: "P2", background: "Junior software developer", n8n: "None", automation: "Built scripts, no visual automation" },
-  { id: "P3", background: "Marketing analyst", n8n: "None", automation: "Heavy Zapier user, some Make" },
+  { id: "P1", background: "Graduate student in Information Science", n8n: "None", automation: "Used Zapier briefly" },
+  { id: "P2", background: "Graduate student, w/ bg in software developer", n8n: "None", automation: "Built scripts, no visual automation" },
+  { id: "P3", background: "Graduate student, w/ bg in Marketing analysis", n8n: "None", automation: "Heavy Zapier user, some Make" },
 ];
 
 const tasks = [
