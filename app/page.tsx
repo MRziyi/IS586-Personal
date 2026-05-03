@@ -45,6 +45,14 @@ const phases: { id: string; label: string; status: "done" | "upcoming"; href: st
     summary:
       "First-draft prototypes addressing 6 highest-severity findings. Baseline screenshots, 6 annotated wireframe redesigns, evolution log, and open questions.",
   },
+  {
+    id: "4E",
+    label: "Final Redesign",
+    status: "done" as const,
+    href: "/4e",
+    summary:
+      "Final iteration: 6 refined V2 wireframes, 3 new design components, all 5 open questions resolved. Full evolution log V0→V1→V2 and design rationale grounded in Nielsen, Norman, and Shneiderman.",
+  },
 ];
 
 const problems = [

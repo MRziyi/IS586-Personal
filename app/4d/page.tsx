@@ -838,9 +838,9 @@ export default function Page4D() {
         <Link href="/4c" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground">
           <ArrowLeft className="size-3.5" /> 4C — User Study
         </Link>
-        <span className="text-sm text-muted-foreground">
-          Further iterations to follow
-        </span>
+        <Link href="/4e" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground">
+          4E — Final Redesign →
+        </Link>
       </div>
 
       <BackToTop />
