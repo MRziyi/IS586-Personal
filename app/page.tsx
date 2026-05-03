@@ -147,12 +147,18 @@ export default function HomePage() {
 
             <div className="flex flex-wrap gap-3">
               <Button asChild>
-                <Link href="/4b">
-                  4B — Analysis
+                <Link href="/4e">
+                  View Final Redesign
                   <ArrowRight className="size-4" />
                 </Link>
               </Button>
               <Button asChild variant="outline">
+                <Link href="/4b">
+                  4B — Analysis
+                  <ArrowRight className="size-3.5" />
+                </Link>
+              </Button>
+              <Button asChild variant="ghost">
                 <a href="https://n8n.io/" target="_blank" rel="noopener noreferrer">
                   Visit n8n
                   <ExternalLink className="size-3.5" />
@@ -173,8 +179,12 @@ export default function HomePage() {
             {phases.map((phase) => (
               <div
                 key={phase.id}
-                className={`rounded-lg border bg-card p-5 ${
-                  phase.status === "upcoming" ? "opacity-55" : ""
+                className={`rounded-lg border p-5 ${
+                  phase.status === "upcoming"
+                    ? "bg-card opacity-55"
+                    : phase.id === "4E"
+                      ? "bg-emerald-50/60 border-emerald-200 dark:bg-emerald-900/10 dark:border-emerald-800"
+                      : "bg-card"
                 }`}
               >
                 <div className="mb-3 flex items-start gap-3">

@@ -60,43 +60,6 @@ function NewBadge() {
   );
 }
 
-/* ── AI image placeholder ── */
-
-function ImagePlaceholder({
-  filename,
-  alt,
-  prompt,
-}: {
-  filename: string;
-  alt: string;
-  prompt: string;
-}) {
-  return (
-    <figure className="overflow-hidden rounded-lg border">
-      <div className="flex min-h-48 items-center justify-center bg-secondary/20 p-6 text-center">
-        <div>
-          <div className="mb-2 text-2xl">🎨</div>
-          <p className="mb-1 text-sm font-semibold text-foreground">{alt}</p>
-          <p className="text-xs text-muted-foreground">
-            Generate with AI · save as{" "}
-            <code className="rounded bg-secondary px-1 py-0.5 font-mono text-[10px]">
-              /public/media/{filename}
-            </code>
-          </p>
-        </div>
-      </div>
-      <details className="border-t bg-secondary/10">
-        <summary className="cursor-pointer px-4 py-2 text-xs font-semibold text-muted-foreground select-none hover:bg-secondary/30">
-          AI generation prompt ▾
-        </summary>
-        <pre className="overflow-x-auto whitespace-pre-wrap px-4 pb-4 pt-2 font-mono text-[10px] leading-relaxed text-muted-foreground/80">
-          {prompt}
-        </pre>
-      </details>
-    </figure>
-  );
-}
-
 /* ── V2 wireframes ── */
 
 function WF2A() {
@@ -519,21 +482,6 @@ const references = [
   { c: "Snyder, C. (2003).", w: "Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces.", p: "Morgan Kaufmann." },
 ];
 
-/* ── AI prompts ── */
-
-const PROMPT_2C = `Hand-drawn low-fidelity wireframe (sketchy black ink on white paper, Balsamiq style), desktop web app UI 1440x900.
-Draw an n8n workflow editor canvas (background, faint) with 4 connected nodes: Schedule → OpenAI → Filter → Output.
-Overlaid in the center: a modal dialog titled "💰 Estimated Execution Cost".
-Inside modal: a 3-column table with header row "Node | Est. tokens | Est. cost". Three rows: "OpenAI GPT-4o | ~2,500 tokens | ~$0.04 ⚠", "Schedule Trigger | — | Free", "Filter | — | Free". A subtotal row: "Total | | ~$0.04". Below table: a checkbox "Don't show again for free-only workflows". Two buttons: "Cancel" and "Run Workflow (~$0.04) ▶".
-Add handwritten callout note with arrow pointing to modal: "Prevents surprise LLM charges — shown before execution when any node has per-call cost".
-Keep everything grayscale, hand-drawn, rough lines and handwritten labels.`;
-
-const PROMPT_2D = `Hand-drawn low-fidelity wireframe (sketchy black ink on white paper, Balsamiq style), desktop web app UI 1440x900.
-Draw an n8n node configuration right-panel. At the top: node title "HTTP Request". Below: a field labeled "Profile ID" with value "12345" typed in a text box. Above the text box: a toggle row with two tabs "Fixed Value | Expression", with the user hovering/clicking "Expression".
-Overlaid just below the toggle: a small warning popover box with a ⚠ icon. Popover text: "Switching to Expression will clear '12345'. Continue?". Two buttons in the popover: "Keep value, cancel" (outlined) and "Switch (clear value)" (filled/primary).
-Add handwritten callout arrow from the popover: "Stops silent data loss when switching input modes (H3 — User Control)".
-Keep everything grayscale, hand-drawn, rough lines and handwritten labels.`;
-
 /* ── page ── */
 
 export default function Page4E() {
@@ -612,19 +560,8 @@ export default function Page4E() {
         <SectionTitle>2 · Final Design Components (V2)</SectionTitle>
         <Sub>
           Six refined components from V1 and three new components first introduced in V2.
-          CSS wireframes are the primary deliverable; AI-generated image placeholders supplement
-          the two most spatially complex new designs.
+          Each wireframe is annotated with what changed from the previous version and why.
         </Sub>
-
-        {/* Note on image choice */}
-        <div className="mb-8 rounded-md border border-blue-200 bg-blue-50 px-4 py-3 text-sm leading-relaxed text-blue-700 dark:border-blue-800 dark:bg-blue-900/20 dark:text-blue-400">
-          <strong className="text-blue-900 dark:text-blue-200">Image vs. wireframe rationale:</strong>{" "}
-          CSS wireframes (like those in 4C and 4D) are used for all components — they are consistent,
-          dark-mode-aware, and always current. AI-generated Balsamiq-style images are provided as
-          supplemental placeholders for V2c and V2d only, where the spatial layering (modal over canvas,
-          popover over panel) is harder to communicate in inline CSS. The generation prompts are
-          embedded below each placeholder.
-        </div>
 
         {/* V2a */}
         <div className="mb-10">
@@ -676,13 +613,8 @@ export default function Page4E() {
           <div className="mb-1 text-xs text-muted-foreground">
             <strong className="text-foreground">New in V2:</strong> Resolves open question #4. Modal appears before executing any workflow containing LLM or paid-API nodes.
           </div>
-          <div className="mb-4 grid gap-4 sm:grid-cols-2">
+          <div className="mb-4">
             <WF2C />
-            <ImagePlaceholder
-              filename="4e-cost-modal.png"
-              alt="V2c — Pre-execution cost estimation modal overlaid on workflow canvas"
-              prompt={PROMPT_2C}
-            />
           </div>
           <Rationale>
             <strong>Motivation:</strong> The 4D open question asked whether &ldquo;Run from here&rdquo; should estimate API cost before executing. The answer is yes — but the estimate belongs at the global execution level (the Execute button), not per-node. The modal intercepts only workflows with at least one paid node.
@@ -703,13 +635,8 @@ export default function Page4E() {
           <div className="mb-1 text-xs text-muted-foreground">
             <strong className="text-foreground">New in V2:</strong> Addresses H3 violation identified in 4B — switching &ldquo;Input Data Mode&rdquo; silently discards entered field values.
           </div>
-          <div className="mb-4 grid gap-4 sm:grid-cols-2">
+          <div className="mb-4">
             <WF2D />
-            <ImagePlaceholder
-              filename="4e-mode-switch.png"
-              alt="V2d — Input mode switch confirmation popover inside node config panel"
-              prompt={PROMPT_2D}
-            />
           </div>
           <Rationale>
             <strong>Motivation:</strong> A user types a Profile ID (&ldquo;12345&rdquo;) into a Fixed Value field, then accidentally clicks Expression mode — the value silently disappears. There is no undo. This was observed with P1 during the 4C user study (Task 3) and is a textbook <strong>Nielsen H3 (User Control and Freedom)</strong> violation.
